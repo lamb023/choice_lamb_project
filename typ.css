@@ -1,0 +1,39 @@
+body{
+    background-color:black ;
+}
+h1{
+    text-transform: capitalize;
+    white-space: nowrap;
+    color: transparent;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 텍스트 가운데 고정 해주려면 필수 */
+}
+h1::before{
+    content: "My first typing effect!!";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFD400;
+    overflow: hidden;
+    border-right: 3px solid white;
+    /* 커서 역할 하는 것 */
+    animation: typing 8s steps(25)infinite 
+}
+
+@keyframes typing{
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}

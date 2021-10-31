@@ -1,0 +1,140 @@
+# choice_lamb_project
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="common.css">
+    <meta charset="UTF-8">
+    <title>second page version_1</title>
+    <br><script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+</head>
+
+<body bgcolor="black">
+    
+    <span style="color:#FFD400"><center><h1>hello</h1></center></span>
+
+    <ul>
+        <li> <a href="#"></a></li>
+
+    </ul>
+
+    <div class="left-side-bar">
+        <div class="status-ico">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <ul>
+            <li>
+                <a href="mainmenu.html">Home</a>
+                <ul>
+
+                    
+                </ul>
+            </li>
+            <li>
+                <a href="#">첫번째</a>
+                <ul>
+                    <li><a href="sb.html">test serve text!</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">두번째</a>
+                <ul>
+                    <li><a href="#">2차 메뉴 아이템1</a></li>
+                    <li><a href="#">2차 메뉴 아이템2</a></li>
+                </ul>
+            </li>
+            <button type="button" class="navy" onclick="location.href='https://github.com/CHOIYESUNG/CHOICE_NOTICE'">온클릭 활용하기</button>
+                </ul>
+            </li>
+        </ul>
+</body>
+
+
+<!-- css  -->
+<style>
+
+body,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.left-side-bar > ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #dfdfdf;
+}
+
+body {
+    height: 10000px;
+}
+
+.left-side-bar {
+    top: -1px;
+    background-color: #dfdfdf;
+    height: 100%;
+    width: 185px;
+    position: fixed;
+    left: -150px;
+    transition: left .3s;
+}
+
+.left-side-bar > .status-ico {
+    text-align: right;
+    padding: 10px;
+}
+
+.left-side-bar > ul li {
+    position: relative;
+}
+
+.left-side-bar ul {
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+}
+
+.left-side-bar ul > li > a {
+    display: block;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.left-side-bar:hover {
+    left: 0;
+}
+
+.left-side-bar ul > li:hover ul {
+    display: block;
+}
+
+.left-side-bar ul > li:hover > a {
+    color: white;
+    background-color: black;
+}
+
+.left-side-bar > .status-ico > span:last-child {
+    display: none;
+}
+
+.left-side-bar:hover > .status-ico > span:last-child {
+    display: block;
+}
+
+.left-side-bar:hover > .status-ico > span:first-child {
+    display: none;
+}
+
+</style>
+
+</html>

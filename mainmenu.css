@@ -1,21 +1,17 @@
-# choice_lamb_project
 
-body{
-    background-color:black ;
-}
 h1{
     text-transform: capitalize;
     white-space: nowrap;
     color: transparent;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* 텍스트 가운데 고정 해주려면 필수 */
 }
 h1::before{
-    content: "My first typing effect!!";
+    content: "hello Choice Notice";
     position: absolute;
     top: 0;
     left: 0;

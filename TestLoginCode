@@ -1,0 +1,184 @@
+# choice_lamb_project
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+  <title>CodePen - Dark UI form</title>
+  
+  
+  
+  
+<style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(52, 54, 54);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    height: 500px;
+    width: 300px;
+    background-color: rgb(52, 54, 54);
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(94, 92, 92, 0.3);
+
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Forum', cursive;
+    color: #ffa502;
+    font-weight: 600;
+}
+
+.container h1 {
+    padding: 30px;
+    color: #ffa502;
+    font-family: 'Montez', cursive;
+    font-size: 50px;
+}
+
+#txt {
+    padding: 8px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 5px 0 rgba(0, 0, 0, 0.3), inset -4px -4px 10px 0 rgba(255, 255, 255, 0.4);
+    background-color: #ffa502;
+    color: rgb(54, 52, 26);
+}
+
+#txt:focus {
+    outline: none;
+}
+
+#txt::placeholder {
+    color: rgb(33, 44, 48);
+}
+
+.or {
+    padding: 20px;
+}
+
+.signup {
+    margin-bottom: 15px;
+}
+
+.icons {
+    margin-left: 8px;
+}
+
+.icons i {
+    margin-right: 10px;
+    font-size: larger;
+    transition: 0.3s;
+}
+
+.icons i:hover {
+    color: rgb(218, 183, 109);
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-top: 10px;
+    background-color: #ffa502;
+    box-shadow: 0px 2px 10px rgb(19, 18, 18);
+
+    border: none;
+    border-radius: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(46, 42, 42);
+    font-weight: 600;
+}
+
+p a {
+    text-decoration: none;
+    color: #ffa502;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dark.css">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+
+    <title>Sign up</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sign up</h1>
+        <div class="form-group">
+            <label for="">UserName</label>
+            <br>
+            <input type="text" class="form-control" name="" id="txt" aria-describedby="emailHelpId" placeholder="UserName">
+
+        </div>
+        <div class="form-group">
+            <label for="">Password</label>
+            <br>
+            <input type="password" class="form-control" name="" id="txt" placeholder="Password">
+        </div>
+        <p><a href="dark.html"> Forgot Password?</a></p>
+        <button type="button" class="btn"><a href="dark.html">Sign up</a></button>
+        <p class="or">OR</p>
+        <p class="signup">Sign up using </p>
+        <div class="icons">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+    </div>
+</body>
+
+</html>
+  
+  
+  
+  
+
+</body>
+
+</html>
